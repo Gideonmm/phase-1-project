@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Talii Pamoja</title>
+</head>
+<body>
+    <nav>
+        <div class="welcome">
+           WELCOME TO KAKAMEGA RAIN FOREST
+        </div>
+        <div class="logo">
+            <img class="logoImg" src="./logoImg.png" alt="">
+        </div>
+    </nav>
+    <section class="secOne">
+        <div class="main">
+            <div class="leftSide">
+                <h2>Tutembee Pamoja Kakamega</h2>
+                <div>
+                    <h1 class="gradient"></h1>
+                   <span class="desc">
+                        Welcome to The Tropical Kakamega Rain Forest <br>
+                        A remnant of the rain forest that stretched all across Central Africa.
+                        Here, we pride in a variety of rare species of birds, butterflies, monkeys, and trees.
+                        Made rare by their availability in only the central regions of Africa, is a truly
+                        unique view of these species.
+                        Journey with us and cycle through the catalogue as you experience the exquisite views.
+                        You may also show cause by donating for your favourite species!
+                        To begin with, enter your name and select a trail.
+                    </span>
+                </div>
+            </div>
+            <div class="rightSide">
+                <form>
+                    <label for="name" class="name">Enter your name:</label> <br>
+                    <input type="text" class="nameText"> <br>
+                    <label for="trail" class="trail" id="trailSelect">Select a Trail to continue</label><br>
+                    <input type="radio" name="startTrail" id="trail1" value="birds" class="text"><span class="textA"> birds </span> <br>
+                    <input type="radio" name="startTrail" id="trail2" value="butterflies" class="text"><span class="textA"> butterflies </span><br>
+                    <input type="radio" name="startTrail" id="trail3" value="monkeys" class="text"><span class="textA"> monkeys </span><br>
+                    <input type="radio" name="startTrail" id="trail3" value="trees" class="text"><span class="textA"> trees </span><br>
+                    <input type="submit" class="buttons" id= "submitBtn" onclick="trailOn()" value="Get Started"/>
+                </form>
+            </div>
+        </div>
+        
+    </section>
+    <section class="secTwo">
+        <div id="trailhead" class="trailhead">
+        </div>
+        <div id="allSpecies" class="allSpecies"></div>
+        <div class="nxtBtn">
+            <button class="buttons"><a href="#trailSelect">Select Next Trail</a></button>
+        </div>
+    </section>
+    <section>
+        <div class="footer">
+            <h5>©2022 Talii Pamoja™</h5>
+        </div>
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>
