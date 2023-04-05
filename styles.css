@@ -5,7 +5,7 @@
 }
 body{
     font-family: 'Nunito', sans-serif;
-    background-color: azure;
+    background-color: rgb(30, 185, 185);
 }
 .secOne{
     width: 100%;
@@ -13,7 +13,7 @@ body{
     background-color: rgb(102, 118, 24, 0.2);
 }
 .gradient {
-    background-image: linear-gradient(to right,rgb(0, 64, 255),rgb(190, 143, 12));
+    background-image: linear-gradient(to right,rgb(33, 179, 67),rgb(190, 143, 12));
     height: 3px;
     width: 50%;
     margin: 20px 0 25px 0;
